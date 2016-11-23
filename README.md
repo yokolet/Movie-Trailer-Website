@@ -13,8 +13,8 @@ To see the movie trailer, hit the commend below:
 bin/show.sh
 ```
 
-All movie information is saved in a json file, `data/movies.json`.
-The code reads the data and creates a html file.
+All movie informations are saved in a json file, `data/movies.json`.
+The code reads the data from `data/movies.json` and creates a html file.
 
 
 ### Directory structure
@@ -46,3 +46,12 @@ This repository has files below:
 - data: data directory, movie data in json format is in this directory
 - media: source directory
 - tests: test code directory
+
+
+### Tests
+
+To run test, go to the top directory and type the command below:
+
+```bash
+python tests/basic_test.py
+```
